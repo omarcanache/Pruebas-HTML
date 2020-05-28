@@ -2,7 +2,7 @@
 <html lang="es">
 
 <head>
-    <title>Pagina de Fotos</title>
+    <title>Pagina Inicial de Libro</title>
     <meta charset="utf-8">
     <meta name="description" content="Libro de Practica HTML CSS y JS">
     <meta name="keywords" content="HTML, CSS, JavaScript">
@@ -12,14 +12,53 @@
 
 <body>
 <header>
-    La primera WEB de Omar/Videos
+    <h1>La primera WEB de Omar</h1>
 </header>
 <nav>
-    <a href="index.html">Principal</a>
-    <a href="fotos.html">Fotos</a>
-    <a href="videos.html">Videos</a>
-    <a href="contacto.html">Contacto</a>
+    <a class="banner" href="index.html">Principal</a>
+    <a class="banner" href="fotos.html">Fotos</a>
+    <a class="banner" href="videos.html">Videos</a>
+    <a class="banner" href="contacto.html">Contacto</a>
+    <a class="banner" href="login.html">Login</a>
+        <a class="banner" href="register.html">Registrar</a>
 </nav>
+
+<main>
+    <section>
+        <h2>Entradas del Sitio</h2>
+        <article>
+            <h3>Ultimo Video</h3>
+            <div><iframe width="560" height="315" src="https://www.youtube.com/embed/5tJKOmzyU1A" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+            <time datetime="2018-06-18" >publicado 18-06-2018</time>
+        </article>
+    </section>
+    <aside class="lateral">
+        <details open>
+            <summary>Libros</summary>
+            <p>El Señor de los Anillos</p>
+            <p>Los Miserables</p>
+            <p>El Resplandor</p>
+        </details>
+
+
+        <ul id=listalateral>
+            <li class="laterlitems">Valor 1</li>
+            <li class="laterlitems">Valor 2</li>
+            <li class="laterlitems">Valor 3</li>
+            <li class="laterlitems">Valor 4</li>
+            <li class="laterlitems">Valor 5</li>
+        </ul>
+    </aside>
+</main>
+
+<footer>
+    <address>
+        Santiago, Chile
+    </address>
+    <small>&copy; Derechos Reservados 2020
+    <a href="mailto:omarcanache@gmail.com?subject=PaginaPrueba">omarcanache@gmail.com</a>
+    </small>
+</footer>
 
 </body>
 

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Pagina Inicial de Libro</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Libro de Practica HTML CSS y JS">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <link rel="stylesheet" href="/css/styleindex.css">
+    <link rel="icon" href="images/team.png" type="image/png" sizes="16x16">
+</head>
+
+<body>
+<header>
+    <h1>La primera WEB de Omar</h1>
+</header>
+<nav>
+    <a class="banner" href="index.html">Principal</a>
+    <a class="banner" href="fotos.html">Fotos</a>
+    <a class="banner" href="videos.html">Videos</a>
+    <a class="banner" href="contacto.html">Contacto</a>
+    <a class="banner" href="login.html">Login</a>
+    <a class="banner" href="register.html">Registrar</a>
+</nav>
+
+<main>
+    <form name="registrar" action="php/procesar.php" method="GET">
+
+<!-- Nombre de Usuario -->
+        <p>
+            <label for="name">Nombre de Usuario:</label>
+            <input id="name" type="text" name="name" autofocus required autocomplete="username" placeholder="Juan Perez" maxlength="15" title="Indique su Nuombre de Usuario"/>
+        </p>
+<!-- Edad de Usuario -->
+        <p>
+            <label for="age">Edad del Usuario:</label>
+            <input id="age" type="number" name="age" required placeholder="31" min="1" max="99" title="Indique su Edad"/>
+        </p>
+
+<!-- Contraseña -->
+    <p>
+        <label for="password">Contraseña:</label>
+        <input type="password" name="password" id="password" maxlength="8" required autocomplete="current-password" title="Introduzca su Contraseña"/>
+    </p>
+
+<!-- Correo -->
+
+    <p>
+        <label for="email">Correo:</label>
+        <input type="email" name="email" id="email" placeholder="ejemplo@email.com" required autocomplete="email" title="Indique su Email"/>
+    </p>
+
+<!-- Telefono -->
+
+    <p>
+        <label for="tel">Telefono:</label>
+        <input type="tel" name="tel" id="tel" placeholder="+569555555" required autocomplete="tel" title="Indique su Numero de Telefono"/>
+
+    </p>
+
+<!-- SitioWeb -->
+
+    <p>
+        <label for="web">SitioWeb</label>
+        <input type="url" name="web" id="web" placeholder="https://www.ejemplo.com" autocomplete="url" title="Indique su Pagina Web"/>
+    </p>
+
+<!-- Color de fondo -->
+    <p>
+        <label for="background">Fondo de Pantalla</label>
+        <input type="color" id="background" name="background" value="#FFFFFF" title="Este color se usara para el fondo del sitio"/>
+    </p>
+
+<!-- Submit -->
+        <p><input id="submit" type="submit" value="Entrar"></p>
+    </form>
+</main>
+
+<footer>
+    <address>
+        Santiago, Chile
+    </address>
+    <small>&copy; Derechos Reservados 2020
+    <a href="mailto:omarcanache@gmail.com?subject=PaginaPrueba">omarcanache@gmail.com</a>
+    </small>
+</footer>
+
+</body>
+
+</html>

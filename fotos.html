@@ -2,7 +2,7 @@
 <html lang="es">
 
 <head>
-    <title>Pagina de Fotos</title>
+    <title>Fotos</title>
     <meta charset="utf-8">
     <meta name="description" content="Libro de Practica HTML CSS y JS">
     <meta name="keywords" content="HTML, CSS, JavaScript">
@@ -12,14 +12,57 @@
 
 <body>
 <header>
-    La primera WEB de Omar/Fotos
+    <h1>La primera WEB de Omar</h1>
 </header>
 <nav>
-    <a href="index.html">Principal</a>
-    <a href="fotos.html">Fotos</a>
-    <a href="videos.html">Videos</a>
-    <a href="contacto.html">Contacto</a>
+    <a class="banner" href="index.html">Principal</a>
+    <a class="banner" href="fotos.html">Fotos</a>
+    <a class="banner" href="videos.html">Videos</a>
+    <a class="banner" href="contacto.html">Contacto</a>
+    <a class="banner" href="login.html">Login</a>
+        <a class="banner" href="register.html">Registrar</a>
 </nav>
+
+<main>
+    <section>
+        <h2>Entradas del Sitio</h2>
+        <article>
+            <h3>Ultimas Fotos</h3>
+            <div class="tirafoto"><a href="fotos/1.jpg"><img src="fotos/1.jpg" alt="Foto 1" width="500" height="500"></a></div>
+            <div class="tirafoto"><a href="fotos/2.jpg"><img src="fotos/2.jpg" alt="Foto 2" width="500" height="500"></a></div>
+            <div class="tirafoto"><a href="fotos/3.jpeg"><img src="fotos/3.jpeg" alt="Foto 3" width="500" height="500"></a></div>
+            <div class="tirafoto"><a href="fotos/4.jpeg"><img src="fotos/4.jpeg" alt="Foto 4" width="500" height="500"></a></div>
+            <div class="tirafoto"><a href="fotos/5.jpg"><img src="fotos/5.jpg" alt="Foto 5" width="500" height="500"></a></div>
+
+        </article>
+    </section>
+    <aside class="lateral">
+        <details open>
+            <summary>Libros</summary>
+            <p>El Señor de los Anillos</p>
+            <p>Los Miserables</p>
+            <p>El Resplandor</p>
+        </details>
+
+
+        <ul id=listalateral>
+            <li class="laterlitems">Valor 1</li>
+            <li class="laterlitems">Valor 2</li>
+            <li class="laterlitems">Valor 3</li>
+            <li class="laterlitems">Valor 4</li>
+            <li class="laterlitems">Valor 5</li>
+        </ul>
+    </aside>
+</main>
+
+<footer>
+    <address>
+        Santiago, Chile
+    </address>
+    <small>&copy; Derechos Reservados 2020
+    <a href="mailto:omarcanache@gmail.com?subject=PaginaPrueba">omarcanache@gmail.com</a>
+    </small>
+</footer>
 
 </body>
 
