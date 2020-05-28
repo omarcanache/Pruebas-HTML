@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+
+
+<head>
+<meta charset="utf-8">
+<title>Erase una vez HTML</title>
+<link href="miestilo.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+
+<h1>Erase Una vez HTML BUUU</h1>
+
+<h2>El Padre</h2>
+	
+	<p>El padre de la web, <strong>Tim Berners-Lee</strong>, es tambien el padre del lenguaje HTML </p>
+<h2>La Estandarización</h2>
+	<p>La web está estandarizada por la W3C, el <em>wold wide web consortium.</em></p>
+
+<h1>Formularios</h1>
+<form>
+	<div>
+	<label for="Nombre">Ingrese su Nombre de Usuario</label>
+	<input name="username" id="username" type="text">
+	</div>
+	<div>
+	<label for="password">Ingrese su Contraseña</label>
+	<input name="password" id="password" type="password">
+	</div>
+	<div>
+	<input type="submit" value="Enviar">
+	</div>
+	
+	<script>
+	
+	document.getElementById('username').addEventListener('keyup', e => { console.log(e.target.value)})
+	
+	</script>
+</form>	
+	
+		<table>
+		
+			<caption>Mi primera Tabla</caption>
+			<thead>
+				<tr>
+					<td>Alumno</td><td>Nota</td>
+				</tr>
+			</thead>
+			
+			<tbody>
+				<tr>
+					<td>Omar</td><td>10</td>
+				</tr>
+				<tr>
+					<td>Ana</td><td>15</td>
+				</tr>
+			</tbody>
+			
+			<tfoot>
+				<tr>
+					<td>Media</td><td>12.5</td>
+				</tr>
+			</tfoot>
+
+
+		</table>
+		
+		<p>A partir de aca empieza la prueba de formularios</p>
+	
+		<form id="form-order">
+		
+			<!--Input Nombre-->
+			
+			<p>
+			<label for="name">Nombre (obligatorio)</label>
+			<input type="text" name="name" id="name"
+			placeholder="Juan Pérez"
+			autofocus
+			autocomplete
+			required/>
+			</p>
+			
+			<!--Imput Password-->
+			
+			<p>
+			<label for="password">Contraseña (obligatoria)</label>
+			<input type="password" name="password" id="password"
+			placeholder="qwe1234"
+			pattern="[a-z]{3}[0-9]{4}"
+			required/> (la contraseña debe contener 3 letras y 4 números en este orden)
+			
+			</p>
+			
+			<!--Imput Tel-->
+			<p>
+			<label for="phone">Telefono</label>
+			<input type="tel" name="phone"id="phone" placeholder="+569555555" required/>
+			</p>
+			
+			<!--Imput Email-->
+			
+			<p>
+			<label for="email">Email</label>
+			<input type="email" name="email" id="email" placeholder="ejemplo@email.com" required/>
+			</p>
+			
+			<!--Imput URL-->
+			<p>
+			<label for="pageweb">Tu Página Web</label>
+			<input type="url" name="pageweb" id="pageweb" placeholder="http://www.tuweb.com"/>
+			</p>
+			
+			<!--Imput Numeros-->
+			<p>
+			<label for="numbertheme">Numero de Tema</label>
+			<input type="number" name="numbertheme" id="numbertheme" placeholder="2" min="2" max="14" step="2"/>
+			(entre 2 y 14, solo pares)
+			</p>
+			
+			<!--Imput Fecha-->
+			<p>
+			<label for="date">Fecha de Nacimiento</label>
+			<input type="date" name="date" id="date"/>
+			</p>
+			
+			
+			
+			
+			<input type="submit" value="Enviar"/>
+			
+			<input type="reset" value="Reset"/>
+			
+		
+		</form>
+		
+		
+		
+	
+
+</body>
+</html>
+
+
+<!--Cosas para estar pendiente-->
+<!--Buscar y programar formularios-->

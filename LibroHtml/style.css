@@ -1,0 +1,41 @@
+body{
+	font-size: 10pt;
+	font-family: Verdana, Geneva, Arial, Heveltica, sans-serif;
+	color:black;
+	line-height: 14pt;
+	padding-left: 25pt;
+	padding-top: 5pt;
+}
+
+h1{
+	font:14pt Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	line-height: 20pt;
+}
+
+h2{
+	font-weight: bold;
+	color: #593b87;
+	font-size: 10pt;
+}
+
+img{
+	padding: 3pt;
+	float: right;
+}
+
+a{
+	text-decoration: none;
+}
+
+a:link, a:visited{
+	color:#FF9933;
+}
+
+.pie{
+	font-size: 9pt;
+	font-style: italic;
+	line-height: 12pt;
+	text-align: center;
+	padding-top: 30pt;
+}

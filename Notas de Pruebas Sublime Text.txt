@@ -1,0 +1,29 @@
+Ctrl+F Find
+Ctrl+H Reemplazar
+html5 para iniciar plantilla
+instale emmet y escribo ! y enter se rellena la plantilla
+puedo multiplicar las etiquetas con emmet
+ejemplo li*5
+o ejemplo para clase
+li.milista*10
+o ejemplo para id
+li#milista*10
+
+Instale AdvanceNewFile
+ctl+alt+n
+
+para carpetas
+js/main.js
+
+Se crea una carpeta js con un archivo js ya iniciado
+
+autonamefile, busca los nombres de los archivos 
+
+ColorPicker 
+Control+Shift+C
+
+Comentarios automaticos
+
+comm-html-section y tabular
+comm-html y tabular
+

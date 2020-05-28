@@ -1,0 +1,20 @@
+	body{
+		background-color:#ccc;
+		color:#333;
+		}
+		
+	h1,h2 {
+		font-family:Georgia;
+		}
+		
+	h1 {
+		font-size:3m;
+		}
+
+	h2 {
+		font-size:2m;
+		}
+		
+	p {
+		font-family: Arial, Heveltica, sans-serif;
+		}
